@@ -1,5 +1,0 @@
-start cherrypy server in background in container means you have to:
-
-attach to container: docker exec -it amazing_carson /bin/bash
-
-run the server: python app/server.py &>/dev/null &
